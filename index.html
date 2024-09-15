@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio | Antares Jezabel Rosso">
+    <meta name="robots" content="index,follow">
+
+    <title>Portafolio</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ae0fd6f99f.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container--loader">
+        <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <img src="./assets/images/logo.png" alt="Logo Portafolio" class="logo__header">
+
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#sobreMi" data-section="menu" data-value="item2">Sobre mí</a>
+            <a href="#habilidades" data-section="menu" data-value="item3">Habilidades</a>
+            <a href="#formacion" data-section="menu" data-value="item4">Formación</a>
+            <a href="#cursos" data-section="menu" data-value="item5">Cursos</a>
+            <a href="#proyectos" data-section="menu" data-value="item6">Proyectos</a>
+            <a href="#contacto" data-section="menu" data-value="item7">Contacto</a>
+
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Inicio -->
+        <section class="home" id="home">
+            <picture class="container_image-home" data-aos="zoom-in">
+                <img class="image_home" src="./assets/images/image-home.png" alt="Ilustración mujer y plantas">
+            </picture>
+
+            <div class="home_info">
+                <div class="container_text-info">
+                    <p class="home_text-1" data-section="home" data-value="home_text-1">Hola! Soy</p>
+                    <p class="home_text-2">Antares Jezabel Rosso</p>
+                </div>
+
+                <div>
+                    <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">Estudiante de
+                        Ingeniería Informática</p>
+                </div>
+
+                <div class="container_button">
+                    <a href="pdf/Curriculum Vitae - Jezabel Rosso.pdf" target="_blank">
+                        <button class="cv_button" data-section="home" data-value="cv_button">Descargar CV</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="links">
+                <a
+                    href="https://www.linkedin.com/in/jezabel-rosso-4a27651b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img src="./assets/images/icon-linkedln.png" alt="LinkedIn">
+                </a>
+                <a href="mailto:Jezabel_Rosso@hotmail.com">
+                    <img src="./assets/images/icon-correo.png" alt="Correo">
+                </a>
+                <a href="https://www.instagram.com/jeza_rosso?utm_source=qr&igsh=MXkxNGxzNHBveHg2cA==">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram"">
+                </a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section class=" sobreMi" id="sobreMi">
+                    <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">Sobre mí</h1>
+
+                    <div class="container_content-sobreMi" data-aos="fade-right">
+                        <div class="container_texto-sobreMi">
+                            <span class="title_sobreMi">Antares Jezabel Rosso</span>
+                            <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
+                                Me encuentro inmersa en mi cuarto año de la carrera de Ingeniería Informática en la
+                                Universidad Blas Pascal, donde ya he aprobado el 62% de las materias. Soy una persona
+                                creativa y responsable, complemento mis estudios con cursos adicionales. Además, me
+                                caracterizo por ser flexible y comprometida, siempre lista para asumir nuevos desafíos
+                                tanto académicos como profesionales. Actualmente, estoy buscando mi primera experiencia
+                                laboral para aplicar de manera práctica los conocimientos adquiridos durante mis
+                                estudios.
+                            </span>
+                        </div>
+
+                        <picture class="container_image-sobreMi">
+                            <img class="image_sobreMi" src="./assets/images/image-sobreMi.png"
+                                alt="Ilustración mujer y café">
+                        </picture>
+                    </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h1 data-section="habilidades" data-value="title" data-aos="fade-up">Habilidades</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-habilidades">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-habilidades">
+
+            <div class="cards_container--habilidades">
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
+                    <img src="./assets/images/icon-C++.png" alt="C++">
+                    <p>C++</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="600">
+                    <img src="./assets/images/icon-C.png" alt="C#">
+                    <p>C#</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
+                    <img src="./assets/images/icon-NET.png" alt=".NET">
+                    <p>.NET</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="800">
+                    <img src="./assets/images/icon-python.png" alt="Python">
+                    <p>Python</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
+                    <img src="./assets/images/icon-html.png" alt="HTML">
+                    <p>HTML 5</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="./assets/images/icon-css.png" alt="CSS">
+                    <p>CSS 3</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="./assets/images/icon-js.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1200">
+                    <img src="./assets/images/icon-PHP.png" alt="PHP"> <br> <br>
+                    <p>PHP</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1300">
+                    <img src="./assets/images/icon-react.png" alt="React"><br>
+                    <p>Frontend con React</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1400">
+                    <img src="./assets/images/icon-sql.png" alt="SQL"><br>
+                    <p>SQL</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1500">
+                    <img src="./assets/images/icon-git,github.png" alt="GIT GITHUB"><br>
+                    <p>GIT y GITHUB</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="./assets/images/icon-ui,ux.png" alt="UI"><br>
+                    <p>Diseño UI</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="./assets/images/icon-DOO.png" alt="DOO"><br>
+                    <p>DOO</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="./assets/images/icon-java.png" alt="JAVA"><br>
+                    <p>Java</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="./assets/images/icon-DA.png" alt="Data Analytics"><br>
+                    <p>Data Analytics</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="./assets/images/icon-ia.png" alt="IA"><br>
+                    <p>IA</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1700">
+                    <img src="./assets/images/icon-linux.png" alt="Linux"> <br>
+                    <p>Linux</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1800">
+                    <img src="./assets/images/icon-redes.png" alt="Redes">
+                    <p>Redes</p>
+                </div>
+
+                <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1900">
+                    <img src="./assets/images/icon-inglestecnico.png" alt="Ingles Tecnico"> <br>
+                    <p>Inglés técnico</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Formación -->
+        <section class="formacion" id="formacion">
+            <h1 data-section="formacion" data-value="title" data-aos="fade-up">Formación Académica</h1>
+
+            <div class="cards_container--formacion">
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+
+                    <a href="https://www.ubp.edu.ar/">
+                        <img class="logo-unal" src="./assets/images/logo-UBP.png" alt="Logo - Universidad Blas Pascal">
+                    </a>
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion1">
+                            Universidad Blas Pascal <br>
+                            Ingeniería Informatica
+                        </p>
+                        <p data-section="formacion" data-value="tiempo-formacion1">2021 - En curso</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a
+                        href="https://www.facebook.com/madrecabriniinstituto/?paipv=0&eav=AfYkszl0Fi32IOpR3aIxu5fRAUyWORefqdCbShfj6Re3YCZum3-2jhUKIoislDpExi8&_rdr">
+                        <img class="logo-sena" src="./assets/images/logo-MadreCabrini.png" alt="Logo - Madre Cabrini">
+                    </a>
+                    <br>
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion3">
+                            Madre Cabrini <br>
+                            Bachiller con orientacion en artes
+                        </p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2018 - 2020</p>
+                    </div>
+                </div>
+
+                <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+                    <a href="https://www.instagram.com/ipea343?igsh=MTJkY251ZmRmdmVkdw==">
+                        <img class="logo-one" src="./assets/images/logo-Ipea343.png" alt="Logo - IPEA 343">
+                    </a>
+                    <div class="container_texto--formacion">
+                        <p data-section="formacion" data-value="formacion2">
+                            IPEA 343 <br>
+                            Tecnico agropecuario
+                        </p>
+                        <p data-section="formacion" data-value="tiempo-formacion2">2015 - 2017</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Cursos -->
+        <section class="cursos" id="cursos">
+            <h1 data-section="cursos" data-value="title" data-aos="fade-up">Cursos Realizados con Certificado</h1>
+
+            <div class="cards_container--cursos">
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+
+                    <a href="pdf/CERTIFICADO.pdf"> <!--Enlace-->
+                        <img class="logo-one" src="./assets/images/curso-python.png" alt="Logo - Python">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos1">Python</p>
+                        <p data-section="cursos" data-value="tiempo-cursos1">2022</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-up" data-aos-duration="500">
+                    <a href="pdf/APROBACION_DEL_CURSO_DE_INTRODUCCION_AL_DESARROLLO_FRONTEND_CON_REACT.pdf">
+                        <img class="logo-unal" src="./assets/images/curso-react.png" alt="Logo - Frontend React">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos2">Frontend con React</p>
+                        <p data-section="cursos" data-value="tiempo-cursos2">2023</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a href="pdf/SQL.pdf">
+                        <img class="logo-unal" src="./assets/images/curso-SQL.png" alt="Logo - SQL interactivo">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos3">SQL interactivo</p>
+                        <p data-section="cursos" data-value="tiempo-cursos3">2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a href="https://cursos.desafiolatam.com/certificates/ksv1egltrj">
+                        <img class="logo-unal" src="./assets/images/curso-SQL.png" alt="Logo - GIT, GITHUB">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos4">GIT, GITHUB</p>
+                        <p data-section="cursos" data-value="tiempo-cursos4">2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a href="https://cursa.app/es/mi-certificado/cert07457a19d4f202bb6888be59e9545734/ok">
+                        <img class="logo-unal" src="./assets/images/curso-DiseñoUI.png" alt="Logo - UI">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos5">Diseño UI</p>
+                        <p data-section="cursos" data-value="tiempo-cursos5">2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a href="https://cursos.desafiolatam.com/certificates/5dcy56te4n">
+                        <img class="logo-unal" src="./assets/images/curso-SQL.png" alt="Logo - Ciberseguridad">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos6">Ciberseguridad</p>
+                        <p data-section="cursos" data-value="tiempo-cursos6">2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a href="pdf/IA.pdf">
+                        <img class="logo-unal" src="./assets/images/curso-SQL.png" alt="Logo - IA">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos6">IA</p>
+                        <p data-section="cursos" data-value="tiempo-cursos6">2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a href="pdf/Automation Training.png">
+                        <img class="logo-unal" src="./assets/images/curso-ingelearn.png"
+                            alt="Logo - Automation Training">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos6">Automation Training</p>
+                        <p data-section="cursos" data-value="tiempo-cursos6">2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a href="https://view.pok.tech/c/242b03e5-619e-4860-b745-cbc120769e00">
+                        <img class="logo-unal" src="./assets/images/curso-ingelearn.png" alt="Logo - Industria 4.0">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos6">Industria 4.0</p>
+                        <p data-section="cursos" data-value="tiempo-cursos6">2024</p>
+                    </div>
+                </div>
+
+                <div class="cards--cursos" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                    <a
+                        href="https://ss.ubp.edu.ar/TramitesCertificadosValidacionProcesar.do/Code=2D99-4E08-E1CE-4D17-A9FE-C797-6AF2-CE02">
+                        <img class="logo-unal" src="./assets/images/logo-UBP.png" alt="Logo - Data Analytics">
+                    </a>
+                    <div class="container_texto--cursos">
+                        <p data-section="cursos" data-value="cursos6">Data Analytics</p>
+                        <p data-section="cursos" data-value="tiempo-cursos6">2024</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h1 data-section="proyectos" data-value="title" data-aos="fade-up">Proyectos</h1>
+
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos1-proyectos">
+            <img src="./assets/images/puntos.png" alt="Decoración puntos" class="puntos2-proyectos">
+
+            <div class="cards_container--proyectos">
+
+                <!--Pagina web-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-interspace1.jpg" alt="Proyecto: Inter Space">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto1">Inter Space - Primeros Pasos </h2>
+                        <p data-section="proyectos" data-value="info-proyecto1">
+                            Presenté una versión básica y funcional de mi página web, marcando el inicio de mi
+                            desarrollo web. <br>
+
+                            Habilidades blandas =
+                            Proactividad.
+
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="https://jeza-rosso0207.github.io/InterSpace/" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Pagina web-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-interspace2.jpg" alt="Proyecto: Inter Space">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Inter Space - Innovación y Mejoras
+                        </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            La segunda versión de mi proyecto muestra mejoras significativas en organización, estética y
+                            funcionalidad.<br>
+
+                            Habilidades blandas =
+                            Mejora continua.
+                        </p>
+
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="http://www.interspaceonline.net/Lab3" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!--Portafolio-->
+                <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-portafolio.jpg" alt="Proyecto: Portafolio">
+                    </div>
+
+                    <div class="container_textCard--proyectos text-portafolio">
+                        <br><br>
+                        <h2 data-section="proyectos" data-value="title-proyecto2">Portafolio </h2>
+                        <p data-section="proyectos" data-value="info-proyecto2">
+                            Presenté mi portafolio web personal con mis proyectos destacados, habilidades técnicas y
+                            formación. <br>
+                            Habilidades blandas =
+                            Autogestión.
+                        </p>
+
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="#" target="_blank">
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Informe descriptivo-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-informeDescriptivo.jpg" alt="Informe descriptivo">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Inter Space - Informe Descriptivo
+                        </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            Es un documento que detalla características, funcionalidades y objetivos de un proyecto,
+                            proporcionando una visión clara sobre su alcance, funcionamiento, componentes, público
+                            objetivo y requisitos técnicos.<br>
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="pdf/Proyecto - IF.pdf" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Programa C++-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-C++.jpg" alt="Programa C++">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Programa C++ </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            Es una herramienta para talleres mecánicos que administra información de clientes y
+                            vehículos. <br>
+
+                            Habilidades blandas =
+                            Resolución de problemas, Atención al detalle.
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="pdf/Final-C++.exe" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Comandos Linux:-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-SO.jpg" alt="Comandos Linux:">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Comandos Linux: </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            Este proyecto es un ejemplo de varios trabajos prácticos donde aprendí comandos básicos de
+                            Linux. <br>
+
+                            Habilidades blandas =
+                            Adaptabilidad, Aprendizaje continuo.
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="pdf/Proyecto - SO.pdf" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Arduino:-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-Arduino.jpg" alt="Arduino:">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Arduino: </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            El proyecto utiliza un sensor ultrasónico
+                            para detectar los movimientos del usuario, todo controlado desde una aplicación móvil.<br>
+
+                            Habilidades blandas =
+                            Creatividad, Innovación.
+
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="pdf/Proyecto - Arduino.pdf" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--UI/UX:-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-UI,UX.jpg" alt="UI/UX:">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">UI/UX: </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            Se analiza cómo el color y la tipografía influyen en el diseño de
+                            interfaces, destacando la importancia de crear experiencias intuitivas y funcionales.<br>
+
+                            Habilidades blandas =
+                            Empatía, Pensamiento crítico.
+
+
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="pdf/Proyecto - UI,UX.pdf" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Base de datos:-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-SBD.jpg" alt="Base de datos:">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Base de datos: </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            Trata del diseño de una base de datos para una página web que funciona como un foro
+                            interactivo.<br>
+
+                            Habilidades blandas =
+                            Organización, Análisis de sistemas.
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="pdf/Proyecto - SBD.pdf" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Java:-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-Java.jpg" alt="Java:">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Java: </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            El programa de reserva de habitaciones permite reservas concurrentes, garantizando la
+                            integridad de los datos y evitando conflictos. <br>
+
+                            Habilidades blandas =
+                            Gestión del tiempo, Trabajo bajo presión.
+
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="pdf/pom.xml" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Pagina web-->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-Sentix.jpg" alt="Sentix:">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Sentix: </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            Es una plataforma web donde los usuarios pueden registrarse, publicar contenido, interactuar
+                            con likes y dislikes, acceder a perfiles, repostear y seguir a otros usuarios.<br>
+
+                            Habilidades blandas =
+                            Colaboración, Comunicación efectiva.
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="http://www.interspaceonline.net/Lab4" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Python: -->
+                <div class="cards--proyectos card_interspace" data-aos="zoom-in-up"
+                    data-aos-anchor-placement="center-bottom">
+                    <div class="container_imgCard--proyectos">
+                        <img src="./assets/images/cap-Python.jpg" alt="Python: ">
+                    </div>
+
+                    <div class="container_textCard--proyectos">
+                        <h2 data-section="proyectos" data-value="title-proyecto3">Python: </h2>
+                        <p data-section="proyectos" data-value="info-proyecto3">
+                            Este código recibe una cantidad de votos, almacena cada voto en un diccionario y luego
+                            determina cuál fue el voto más repetido. Finalmente, imprime el voto que más se repitió.<br>
+
+                            Habilidades blandas =
+                            Precisión, Solución de problemas.
+
+                        </p>
+                    </div>
+
+                    <div class="container_btn--proyectos">
+                        <a href="pdf/tercer programa Python.py" target="_blank"> <!--Link-->
+                            <button class="btn_demo">
+                                <img src="./assets/images/icon-demoProyecto.png" alt="Demostración">DEMO
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a
+                    href="https://www.linkedin.com/in/jezabel-rosso-4a27651b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img src="./assets/images/icon-linkedln.png" alt="LinkedIn">
+                </a>
+                <a href="mailto:Jezabel_Rosso@hotmail.com">
+                    <img src="./assets/images/icon-correo.png" alt="Correo">
+                </a>
+                <a href="https://www.instagram.com/jeza_rosso?utm_source=qr&igsh=MXkxNGxzNHBveHg2cA==">
+                    <img src="./assets/images/icon-instagram.png" alt="Instagram"">
+                </a>
+            </div>
+
+            <div class=" container_text--footer">
+                    <span>Copyright © | Coded with</span>
+                    <img src="./assets/images/icon-corazon.png" alt="Corazón">
+                    <span>by</span>
+                    <span>Antares Jezabel Rosso</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
